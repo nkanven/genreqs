@@ -36,12 +36,15 @@ def main():
             help = """
 Usage:
     genreqs [options]
+    genreqs [command] [parametr]      # genreqs -p PATH_TO_PYTHON_DIR
 
     Options:
         -h, --help              Show help
         -V, --version           Show version and exit
-        -p, --path              Generate requirements.txt from python folder / virtual environment
+    Command:
+        -p, --path              Generate requirements.txt from python folder or virtual environment
 """
+            print(help)
         if '-V' in sys.argv or '--version' in sys.argv:
             logging.info(f"GenReqs version {genreqs.__version__}")
     
