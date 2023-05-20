@@ -1,2 +1,5 @@
 dist
 *.egg*
+venv
+*.pyc
+__pycache__
