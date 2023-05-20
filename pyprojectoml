@@ -1,0 +1,36 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GenReqs"
+version = "1.0"
+description = "Easiest way to generate the requirements.txt files for your project"
+readme = "README.md"
+authors = [{ name = "Nkondog Anselme Venceslas", email = "nkanven@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers=[
+'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
+'Intended Audience :: Developers',      # Define that your audience are developers
+'Topic :: Software Development :: Build Tools',
+'License :: OSI Approved :: MIT License',   # Again, pick a license
+'Programming Language :: Python :: 3',      #Specify which pyhton versions that you want to support
+'Programming Language :: Python :: 3.4',
+'Programming Language :: Python :: 3.5',
+'Programming Language :: Python :: 3.6',
+'Programming Language :: Python :: 3.7',
+'Programming Language :: Python :: 3.8',
+'Programming Language :: Python :: 3.9',
+'Programming Language :: Python :: 3.10',
+'Programming Language :: Python :: 3.11',
+]
+keywords = ['Requirements.txt', 'Generate', 'requirements', 'packages', 'dependancy']
+requires-python = ">=3.3"
+
+[project.urls]
+Homepage = "https://github.com/nkanven/genreqs"
+
+[project.scripts]
+genreqs = "genreqs.__main__:main"
