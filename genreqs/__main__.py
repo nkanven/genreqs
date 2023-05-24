@@ -56,7 +56,7 @@ Usage:
         msg = '\33[32m' + "\nTask completed! "+'\33[0m' + "\nPlease find your requirements.txt at "
         req_path = working_dir + separator + "requirements.txt"
 
-        clikable = f"\x1b]8;;{req_path}\a{req_path}\x1b]8;;\a"
+        clikable = f"\x1b]8;;{req_path}\a{req_path}\x1b]8;;\a\n"
         
         sys.stdout.write(msg + clikable)
         sys.stdout.flush()
