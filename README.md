@@ -73,6 +73,7 @@ Project is: _in progress_ I am continously adding features and updating the pack
 
 Room for improvement:
 - Upload the package to Pypi
+- Make it run in pycharm environment without error
 
 
 ## Contact
